@@ -9,7 +9,7 @@ export default function App(){
 
     return (
         <div>
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Header/> {/*Aqui vai ser renderizado o header da pagina*/}
                 <Conteudo/> {/*Aqui vai ser renderizado o conteudo da pagina*/}
             </BrowserRouter>
