@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --cor-clara: #b0d0f1;
+    --primary-color: #8baccd;
+    --secondary-color: #6f8f9f;
+    --tertiary-color: #4f6f7f;
+    --quaternary-color: #2f4f5f;
+    --quinary-color: #18303c;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*degredê do background*/
+    background: linear-gradient(90deg, var(--cor-clara), #cee6ff);
+}
+
+.titulo-principal {
+
+    font-family: 'Urbanist', sans-serif;
+    
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: var(--quaternary-color);
+    letter-spacing: 2px;
+
+}
+
+.titulo-principal:hover {
+    color: var(--quaternary-color);
+    transition: 0.5s;
+    letter-spacing: 5px;
+
+}
+strong{
+    color: var(--tertiary-color);
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.sobre-mim {
+    padding: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--secondary-color);
+    box-shadow: var(--quaternary-color) 0px 25px 20px -20px;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 25px;
+    color: var(--quinary-color);
+    background-color: var(--cor-clara);
+    
+}
+
+.sobre-mim:hover{
+    background-color: var(--secondary-color);
+    color: var(--cor-clara);
+    transition: 0.5s;
+}
+.secao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 20px;
+}
+
+.paragrafo {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+    padding-left:30px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.foto-perfil{
+    width: 330px;
+    height: 330px;
+    border-radius: 20px;
+    filter: blur(2px);
+}
+
+.foto-perfil:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    /*deixar a foto mais nítida*/
+    filter: blur(0px);
+    
+}
+
+.div-total {
+    /*fazer a classe div-nome e classe subtitulo ficarem uma do lado da outra*/
+    margin-top: 50px;
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 65%;
+    
+    
+}
+
+.div-nome {
+    /*aparecer só a borda de cima*/
+    
+    display: flex;
+    justify-content: space-between; /* Isso adiciona espaço igual entre os elementos */
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    
+    align-items: center;
+    border-top: 2px solid var(--secondary-color);
+    width: 85%;
+    /*padding-left: 56%;*/
+    
+}
+
+.linha-nome {
+    margin-top: 30px;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+    
+}
+
+.subtitulo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 30px;
+    color: var(--quaternary-color);
+    padding-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    flex-shrink: 0;
+}
+    

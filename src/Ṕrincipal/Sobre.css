@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #8baccd;
+    --secondary-color: #6f8f9f;
+    --tertiary-color: #4f6f7f;
+    --quaternary-color: #2f4f5f;
+    --qiunary-color: #1f3f4f;
+    --senary-color: #0f2f3f;
+    --septnary-color: #0d1a27;
+
+}
+
+.titulo-sobre {
+  text-align: center;
+  font-family: 'Urbanist', sans-serif;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: var(--quaternary-color);
+  background-color: var(--primary-color);
+  width: 30%;
+  height: 45px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.lista-lang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 0px;
+    /* espaçamento entre os topicos */ 
+  
+
+}
+
+.lista-1:hover {
+    background-color: var(--secondary-color);
+    transition: 0.5s;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+
+.lista-lang2{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      margin-top: 0px;
+      /* espaçamento entre os topicos */
+      margin-bottom: 30px; 
+    
+  }
+
+.lista-1,
+.lista-2 {
+    padding:13px;
+    border-style: solid;
+    border-width: 1.5px;
+    margin: 30px;
+    width: 10%;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bolder;
+    color: var(--qiunary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        
+      
+}
+
+.lista-2:hover {
+    background-color: var(--secondary-color);
+    transition: 0.5s;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 25px;
+
+}
+
+.foto-js{
+    transition: transform 0.5s;
+
+    width: 50px;
+    height: 40px;
+    margin-top: 10px;
+
+
+}
+
+.foto-js:hover{
+
+    transform: rotate(360deg);
+
+}
+
+.foto-c {
+    transition: transform 0.5s;
+
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+
+
+}
+
+.foto-c:hover{
+
+    transform: rotate(360deg);
+
+}
+.foto-java {
+    transition: transform 0.5s;
+
+    width: 50px;
+    height: 40px;
+    margin-top: 10px;
+
+}
+
+.foto-java:hover{
+
+    transform: rotate(360deg);
+
+}
+
+.foto-jdbc {
+    transition: transform 0.5s;
+    margin-top: 10px;
+    width: 50px;
+}
+
+.foto-jdbc:hover{
+
+    transform: rotate(360deg);
+
+}
+
+.foto-node {
+    margin-top: 10px;
+    transition: transform 0.5s;
+    width: 50px;
+}
+
+.foto-node:hover{
+
+    transform: rotate(360deg);
+
+}
+
+.foto-react{
+    margin-top: 10px;
+    transition: transform 0.5s;
+    width: 50px;
+}
+
+.foto-react:hover{
+
+    transform: rotate(360deg);
+
+}
+
+.titulo-rede {
+    font-family: 'Urbanist', sans-serif;
+    color: var(--quaternary-color);
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 0px;
+
+    padding-top: 50px;
+    align-items: center;
+    /*alinhar ao centro*/
+    text-align: center;
+    background-color: var(--primary-color);
+    /*tamanho da altura do background*/
+    width: 100%;
+
+}
+
+.titulo-rede:hover {
+    color: var(--quaternary-color);
+    transition: 0.5s;
+    letter-spacing: 5px;
+}
+
+.lista-rede-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--primary-color);
+    /*tamanho da altura do background*/
+    height: 300px;
+    margin-top: 0px;
+
+
+
+}
+
+.divisao-rede-social {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+    background-color: var(--tertiary-color);
+    padding-bottom: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 15px;
+    box-shadow: var(--septnary-color) 0px 14px 28px, var(--septnary-color) 0px 10px 10px;   
+    overflow: hidden;
+ 
+}
+
+.divisao-rede-social:hover {
+    background-color: var(--secondary-color);
+    transition: 0.5s;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+.botao-rede-social {
+    background-color: var(--quaternary-color);
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: #000000;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-sizing: border-box;
+
+    
+}
+
+.botao-rede-social:focus {
+    outline: 0;
+    
+}
+
+.botao-rede-social:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #000000;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+}
+
+.botao-rede-social:hover:after {
+    bottom: 2px;
+    left: 2px;
+    
+}
+
+
+
+.titulo-da-lista {
+    font-family: 'Urbanist', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: var(--septnary-color);
+    margin: 10px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--septnary-color);
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 20px;
+}
+
+a:hover {
+    color: var(--quaternary-color);
+    transition: 0.5s;
+}
+
+/*aaaaaaa*/
+

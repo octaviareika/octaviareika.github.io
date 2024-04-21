@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --primary-color: #8baccd;
+    --secondary-color: #6f8f9f;
+    --tertiary-color: #4f6f7f;
+    --quaternary-color: #2f4f5f;
+    --quinary-color: #18323e;
+
+}
+
+.rodapeInicio {
+    
+    padding: 10px;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    border-color: var(--quaternary-color);
+    border-style: solid;
+    width: 15%;
+    height: 30%;
+    /*alinha para o centro*/
+    margin: 0 auto;
+    margin-bottom: 50px; /* Adicionado */
+    text-align: center;
+    box-shadow: var(--quaternary-color) 0px 22px 70px 4px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.rodape-sobre {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.linha-rodape {
+    padding: 3px;
+    font-family: 'Urbanist', sans-serif;
+    color: var(--quinary-color);
+}
+
+
+/*animação*/
+
+.rodapeInicio:hover {
+    background-color: #bfdfff;
+    transition: 0.5s;
+    box-shadow: #8baccd 0px 22px 70px 4px;
+}
