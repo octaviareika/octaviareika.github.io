@@ -10,42 +10,34 @@
 
 }
 
-.rodapeInicio {
-    
-    padding: 10px;
-    background-color: var(--secondary-color);
-    border-radius: 20px;
-    border-color: var(--quaternary-color);
-    border-style: solid;
-    width: 15%;
-    height: 30%;
-    /*alinha para o centro*/
-    margin: 0 auto;
-    margin-bottom: 50px; /* Adicionado */
-    text-align: center;
-    box-shadow: var(--quaternary-color) 0px 22px 70px 4px;
-    font-family: 'Urbanist', sans-serif;
-}
-
-.rodape-sobre {
-    display:flex;
-    flex-direction: column;
+.divisao-projeto-total {
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+  }
+  
+.divisao-projeto-um, .divisao-projeto-dois {
+    max-width: 50%;
+
 }
 
-.linha-rodape {
-    padding: 3px;
-    font-family: 'Urbanist', sans-serif;
-    color: var(--quinary-color);
+
+.dois {
+    margin-top: 40px;
 }
 
+.botao-projeto-total {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px; /* ajuste este valor conforme necessário */
+}
 
-/*animação*/
+.botao-projeto-um, .botao-projeto-dois{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 
-.rodapeInicio:hover {
-    background-color: #bfdfff;
-    transition: 0.5s;
-    box-shadow: #8baccd 0px 22px 70px 4px;
+    gap: 10px;
 }
