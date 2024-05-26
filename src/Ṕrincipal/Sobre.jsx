@@ -43,7 +43,7 @@ export default function Sobre(props){
 
 
                     <li className="lista-2">
-                        <img src={bancoDeDados} className="foto-jdbc"></img>JDBC
+                        <img src={bancoDeDados} className="foto-jdbc"></img>JPA
                     </li>
                 </ul>
 

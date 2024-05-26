@@ -10,7 +10,7 @@ export default function Rodape(props){
         <footer className="rodapeInicio">
             <div className="divisao-projeto-total">
                 <div className="divisao-projeto-um">
-                    <h1>Projetos/Reposítorios realizados</h1>
+                    <h1 className="h1-projeto">Projetos realizados</h1>
 
                     <img src={segundaFoto} alt="foto de perfil" className="foto-perfil dois"></img>
                 </div>
@@ -22,12 +22,12 @@ export default function Rodape(props){
                     </p>
                     <div className="botao-projeto-total">
                         <div className="botao-projeto-um um">
-                            <button className="botao-projeto">TP Organização de Computadores</button>
+                            <button className="botao-projeto"> TP Org. de Computadores</button>
                             <button className="botao-projeto">Tabela de Nomes Interativa</button>
-                            <button className="botao-projeto">Projeto Validando Formulário </button>
+                            <button className="botao-projeto">Validando Formulário </button>
                         </div>
                         <div className="botao-projeto-dois">
-                            <button className="botao-projeto">Banco de Dados para Veículo</button>
+                            <button  className="botao-projeto">Veículo JPA/API</button>
                             <button className="botao-projeto">Cadastro Escolar</button>
                             <button className="botao-projeto">Campo Minado</button>
                         </div>

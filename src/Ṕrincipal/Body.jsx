@@ -1,6 +1,6 @@
 import React from "react";
 import "./Body.css"
-import fotoPerfil from "./fotos/fotoPortfolio1.jpeg"; // Importa a imagem e atribui a importação a uma variável
+import fotoPerfil from "./fotos/jingliu1.jpg"; // Importa a imagem e atribui a importação a uma variável
 import Rodape from "./Rodape"; // Importa o componente Rodape
 
 export default function Body(props){
@@ -28,6 +28,9 @@ export default function Body(props){
             </div>
             <Rodape/> {/*Aqui vai ser renderizado o rodape da pagina*/}
 
+            <div>
+                <p>Portólio</p>
+            </div>
         </div>
             
         

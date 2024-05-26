@@ -10,27 +10,73 @@
 
 }
 
+.rodapeInicio {
+    background: linear-gradient(to right, #80b5cf, #59879c);
+}
+
 .divisao-projeto-total {
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
-  
-.divisao-projeto-um, .divisao-projeto-dois {
-    max-width: 50%;
 
+.h1-projeto{
+    font-family: 'Urbanist', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    color: #bed5ed;
+    border-style: solid;
+    background-color: var(--tertiary-color);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.h1-projeto:hover{
+    background-color:#c0ddfe;
+    color: var(--tertiary-color);
+    transition: 0.5s;
+    border-color: #c0ddfe;
+}
+  
+.divisao-projeto-dois {
+    max-width: 30%;
+
+}
+
+.divisao-projeto-um {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 53px;
+    margin-right: 100px;
+}
+
+
+
+.divisao-projeto-dois {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
 
 
 .dois {
     margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .botao-projeto-total {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
-    margin: 10px; /* ajuste este valor conforme necessário */
+    margin: 5px; /* reduced from 10px */
 }
 
 .botao-projeto-um, .botao-projeto-dois{
@@ -38,6 +84,91 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-
-    gap: 10px;
+    gap: 30px; /* reduced from 10px */
+    margin: 10px; /* reduced from 10px */
 }
+
+.paragrafo-projeto{
+    margin-top: 120px;
+    width: 70%;
+    height: 1%;
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+    color: white;
+}
+  
+  /* CSS */
+  .botao-projeto {
+    margin: 40px;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    position: relative;
+    color: #f0f0f0;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: 'Urbanist', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  }
+  
+  .botao-projeto::after,
+  .botao-projeto::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -99999;
+    transition: all .4s;
+  }
+  
+  .botao-projeto::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+    background: var(--quaternary-color);
+    border-radius: 10px;
+  }
+  
+  .botao-projeto::after {
+    transform: translate(10px, 10px);
+    width: 35px;
+    height: 35px;
+    background: #80b5cf;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 50px;
+  }
+  
+  .botao-projeto:hover::before {
+    transform: translate(5%, 20%);
+    width: 110%;
+    height: 110%;
+  }
+  
+  .botao-projeto:hover::after {
+    border-radius: 10px;
+    transform: translate(0, 0);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .botao-projeto:active::after {
+    transition: 0s;
+    transform: translate(0, 5%);
+  }
+
+
+/*<!-- HTML !-->
+<button class="botao-projeto" role="button">Button 86</button>
+
+/* CSS */
