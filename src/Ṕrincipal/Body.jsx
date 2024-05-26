@@ -28,8 +28,13 @@ export default function Body(props){
             </div>
             <Rodape/> {/*Aqui vai ser renderizado o rodape da pagina*/}
 
-            <div>
-                <p>Portólio</p>
+            
+            <div className="div-total">
+                <div className="div-nome">
+                    <div className="linha-nome"></div>
+                    
+                </div>
+                <h5 className="subtitulo">   Portfólio</h5>
             </div>
         </div>
             
