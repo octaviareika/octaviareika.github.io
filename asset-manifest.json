@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.32751b13.css",
-    "main.js": "/static/js/main.37e5947c.js",
-    "static/media/fotoPortfolio1.jpeg": "/static/media/fotoPortfolio1.b9f2bb60a98cd30337d2.jpeg",
-    "static/media/biblioteca.png": "/static/media/biblioteca.baeaf4e503df195a6018.png",
-    "static/media/letra-c.png": "/static/media/letra-c.79c1b5832472b2b3ee48.png",
-    "static/media/base-de-dados.png": "/static/media/base-de-dados.e643cd37d1f12a09cfe9.png",
-    "static/media/java.png": "/static/media/java.375f91150aebfc2e19ef.png",
-    "index.html": "/index.html",
-    "main.32751b13.css.map": "/static/css/main.32751b13.css.map",
-    "main.37e5947c.js.map": "/static/js/main.37e5947c.js.map"
+    "main.css": "/octaviareika/octaviareika.github.io/static/css/main.2af32906.css",
+    "main.js": "/octaviareika/octaviareika.github.io/static/js/main.0668b1b4.js",
+    "static/media/jingliu2.jpg": "/octaviareika/octaviareika.github.io/static/media/jingliu2.387684c133cddbaaaed3.jpg",
+    "static/media/jingliu1.jpg": "/octaviareika/octaviareika.github.io/static/media/jingliu1.2a17a89a177cc620e8b2.jpg",
+    "static/media/biblioteca.png": "/octaviareika/octaviareika.github.io/static/media/biblioteca.baeaf4e503df195a6018.png",
+    "static/media/letra-c.png": "/octaviareika/octaviareika.github.io/static/media/letra-c.79c1b5832472b2b3ee48.png",
+    "static/media/base-de-dados.png": "/octaviareika/octaviareika.github.io/static/media/base-de-dados.e643cd37d1f12a09cfe9.png",
+    "static/media/java.png": "/octaviareika/octaviareika.github.io/static/media/java.375f91150aebfc2e19ef.png",
+    "index.html": "/octaviareika/octaviareika.github.io/index.html",
+    "main.2af32906.css.map": "/octaviareika/octaviareika.github.io/static/css/main.2af32906.css.map",
+    "main.0668b1b4.js.map": "/octaviareika/octaviareika.github.io/static/js/main.0668b1b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.32751b13.css",
-    "static/js/main.37e5947c.js"
+    "static/css/main.2af32906.css",
+    "static/js/main.0668b1b4.js"
   ]
 }
